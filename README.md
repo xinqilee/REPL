@@ -213,3 +213,8 @@ Now say that you want to add a new argument to your function. The argument will 
 
 
 ** Handle the list of names.
+
+```
+>>> import importlib
+>>> importlib.reload(greeting)
+```
