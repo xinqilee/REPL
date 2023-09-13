@@ -87,10 +87,10 @@ In this case, the function fails with a `ZeroDivisionError` because calling `len
 ## Task 1 Script mode
 In Python interpreter:
 
-Execute **script** `sample.py` in Python interpreter.
+Execute **script** `sample.py` in Python interpreter. Handle ZeroDivisonError for mean([]).
 
 Write your own script,
-execute the function `random` from `random` **module**, print the ranodm number to the screen.
+execute the function `random` from `random` **module**, print the random number to the screen.
 
 
 
