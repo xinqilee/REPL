@@ -10,3 +10,4 @@ def mean(data):
     return sum(data) / len(data)
 
 average = mean(sample)
+print(average)

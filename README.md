@@ -1,15 +1,40 @@
 [Python REPL reference](https://realpython.com/python-repl/)
 ## What is Python REPL?
-Read
 
-Eval
+The Python interpreter allows for what’s known as an interactive REPL
+(Read-Eval-Print Loop), or shell, which
 
-Print
+**R**eads a piece of code
 
-Loop
+**E**valuates it, and then
+
+**P**rints the result to the console in a
+
+**L**oop
+
+The **Python interpreter** can execute Python code in two modes:
+
+**Script**, or program
+
+**Interactive**, or REPL
+
+
+
+The main difference between a module and a script is that modules are meant to be imported, while scripts are made to be directly executed.
+
+
+## Interactive mode
+
+When you run the **Python interpreter** in **interactive mode**, you open an interactive shell, also known as an **interactive** or a **REPL session**.
+In this shell, your **keyboard is the input** source, and your **screen is the output** destination.
 
 ## Why Use a Python REPL?
 
+As a Python programmer, you’ll spend considerable time in interactive mode.
+
+Explore and learn Python syntax
+
+Try out and prove ideas, concepts, and implementations
 
 ## Starting and Ending REPL Interactive Sessions
 
@@ -58,6 +83,17 @@ mean([])
 ```
 
 In this case, the function fails with a `ZeroDivisionError` because calling `len()` with an empty list returns `0`.
+
+## Task 1 Script mode
+In Python interpreter:
+
+Execute **script** `sample.py` in Python interpreter.
+
+Write your own script,
+execute the function `random` from `random` **module**, print the ranodm number to the screen.
+
+
+
 
 - `-b` option when you’re running code that compares `bytes` objects
 
@@ -207,12 +243,12 @@ Explore the follwoing errors:
 >>> greeting.greet("Pythonista")
 ```
 
-## TASK 1 implement additional functionality and test it.
+## TASK 2 implement additional functionality and test it.
 
 Now say that you want to add a new argument to your function. The argument will be a `Boolean flag` that allows printing the `greeting message in uppercase letters`.
 
 
-** Handle the list of names.
+**Handle the list of names instead of str.**
 
 ```
 >>> import importlib
