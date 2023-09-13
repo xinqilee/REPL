@@ -1,4 +1,5 @@
 # sample.py
+import random
 
 def read_data():
     # Read data from a file or database...
@@ -7,7 +8,10 @@ def read_data():
 sample = read_data()
 
 def mean(data):
-    return sum(data) / len(data)
+    try: 
+        print(sum(data) / len(data))
+    except Exception as e:
+        print(e)
 
-average = mean(sample)
-print(average)
+def random_number():
+    print(random.random())
