@@ -21,3 +21,20 @@ Code
 3. Run `git clone https://github.com/youraccount/REPL.git`
 4. Open downloaded folder in VSCode.
 
+# Git commands
+
+`git pull origin margin`
+
+`git checkout -b new_branch_name main`
+
+Do the wrok
+
+`git add .`
+
+`git commit -m "Work done"`
+
+`git add .`
+
+`git push origin new_branch_name`
+
+`git merge develop`
